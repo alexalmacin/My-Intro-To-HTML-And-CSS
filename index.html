@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="/newIndex.css">
+</head>
+<body>
+  <div class="navbar">
+    <a href="/onePieceFanPage/index.html">Home</a>
+    <a href="#section1">About</a>
+    <a href="#section2">Characters</a>
+    <a href="#section3">Plot</a>
+  </div>
+
+    <div class="landing-page">
+        <h1>Welcome to the Landing Page</h1><br>
+        <p>This is the landing page of the official One Piece Fanclub Website.</p>
+      </div>
+      
+      <section id="section1" class="section1">
+        <h2>About</h2>
+        <p>One Piece (stylized in all caps) is a Japanese manga series written and illustrated by Eiichiro Oda. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since July 1997, with its individual chapters compiled in 108 tankōbon volumes as of March 2024. <br>
+          The story follows the adventures of Monkey D. Luffy and his crew, the Straw Hat Pirates, where he explores the Grand Line in search of the mythical treasure known as the "One Piece" in order to become the next King of the Pirates.</p>
+      </section>
+      
+      <section id="section2" class="section2">
+        <h2>Characters</h2>
+        <p>The world of One Piece is populated by humans and other races such as dwarves (more akin to faeries in size), giants, merfolk, fish-men, long-limbed tribes, long-necked people known as the Snakeneck Tribe, and animal people (known as "Minks"). The world is governed by an intercontinental organization known as the World Government, consisting of dozens of member countries. <br>
+          The Navy is the sea military branch of the World Government that protects the known seas from pirates and other criminals. There is also Cipher Pol which is a group of agencies within the World Government that are their secret police. While pirates are major opponents against the Government, the ones who really challenge their rule are the Revolutionary Army who seeks to overthrow them. The central tension of the series pits the World Government and their forces against pirates. The series regularly emphasizes moral ambiguity over the label "pirate", which includes cruel villains, but also any individuals that do not submit to the World Government's authoritarian—and often morally ambiguous—rule. <br>
+          The One Piece world also has supernormal characteristics like Devil Fruits, which are mysterious fruits that grant whoever eats them transformative powers. Another supernatural power is Haki, which grants its users enhanced willpower, observation, and fighting abilities, and it is one of the only effective methods of inflicting bodily harm on certain Devil Fruit users.</p>
+      </section>
+      
+      <section id="section3" class="section3">
+        <h2>Plot</h2>
+        <p>The series focuses on Monkey D. Luffy—a young man made of rubber after unintentionally eating a Devil Fruit—who sets off on a journey from the East Blue Sea to find the deceased King of the Pirates Gol D. Roger's ultimate treasure known as the "One Piece", and take over his prior title. <br> 
+          In an effort to organize his own crew, the Straw Hat Pirates, Luffy rescues and befriends a pirate hunter and swordsman named Roronoa Zoro, and they head off in search of the titular treasure. They are joined in their journey by Nami, a money-obsessed thief and navigator; Usopp, a sniper and compulsive liar; and Sanji, an amorous but chivalrous cook. They acquire a ship, the Going Merry—later replaced by the Thousand Sunny—and engage in confrontations with notorious pirates. <br>
+          As Luffy and his crew set out on their adventures, others join the crew later in the series, including Tony Tony Chopper, an anthropomorphized reindeer doctor; Nico Robin, an archaeologist and former Baroque Works assassin; Franky, a cyborg shipwright; Brook, a skeleton musician and swordsman; and Jimbei, a whale shark-type fish-man and former member of the Seven Warlords of the Sea who becomes their helmsman. Together, they encounter other pirates, bounty hunters, criminal organizations, revolutionaries, secret agents, different types of scientists, soldiers of the morally-ambiguous World Government, and various other friends and foes, as they sail the seas in pursuit of their dreams.</p>
+       </section>
+      
+      <script>
+        // Smooth scrolling for navbar links
+        document.querySelectorAll('nav a').forEach(anchor => {
+          anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+              behavior: 'smooth'
+            });
+          });
+        });
+      </script>
+<footer class="footer">
+  <p>&copy; 2024 One Piece</p>
+  <p>This website is not affiliated with or endorsed by Eiichiro Oda or Shueisha.</p>
+  <img src="/newe991804378163190adbd288a473edc85.png" alt="One Piece Logo">
+</footer>
+</body>
+</html>
