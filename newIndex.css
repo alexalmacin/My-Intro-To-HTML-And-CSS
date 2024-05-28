@@ -1,0 +1,107 @@
+ /* Style for the landing page */
+ .landing-page {
+    height: 100vh;
+    background-image: url(/onePieceFanPage/media/wallpaperflare.com_wallpaper.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: #000000 solid 5px;
+  }
+  .landing-page h1{
+    color: rgb(255, 255, 255);
+  }
+  .landing-page p{
+    color: rgb(0, 0, 0);
+  }
+
+ /* Common styling for all sections */
+section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white; /* Change text color if necessary */
+  border-bottom: #000000 solid 5px;
+}
+/* Style for the navbar */
+.navbar {
+  background-color: #000000;
+  overflow: hidden;
+  position: sticky;
+  top: 0; /* Stick to the top of the viewport */
+  z-index: 1000; /* Ensure the navbar appears above other content */
+  text-align: center; /* Center align the links */
+}
+
+.navbar a {
+  display: inline-block; /* Display the links as block elements */
+  color: #fff; /* White text */
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ffffff; /* Darker blue on hover */
+  color: black;
+}
+.section1{
+  background-image: url(/onePieceFanPage/media/wallpaperflare.com_wallpaper\(3\).jpg);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom: #000000 solid 5px;
+}
+.section1 h2{
+  color: whitesmoke;
+}
+.section2{
+  background-image: url(/onePieceFanPage/media/wallpaperflare.com_wallpaper\(4\).jpg);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  border-bottom: #000000 solid 5px;
+}
+.section2 h2{
+  color: whitesmoke;
+}
+.section3{
+  background-image: url(/onePieceFanPage/media/wallpaperflare.com_wallpaper\(1\).jpg);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom: #000000 solid 5px;
+}
+.section3 h2{
+  color: whitesmoke;
+}
+.footer {
+  background-color: #000000; /* Dark blue background */
+  color: #fff; /* White text */
+  padding: 20px 0; /* Padding top and bottom */
+  text-align: center;
+}
+
+.footer p {
+  margin: 0; /* Remove default margin */
+  color: whitesmoke;
+}
+
+.footer img {
+  width: 150px; /* Adjust the size as needed */
+}
