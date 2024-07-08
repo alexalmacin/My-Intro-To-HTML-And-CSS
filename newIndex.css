@@ -1,7 +1,7 @@
  /* Style for the landing page */
  .landing-page {
     height: 100vh;
-    background-image: url(/wallpaperflare.com_wallpaper.jpg);
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +51,7 @@ section {
   color: black;
 }
 .section1{
-  background-image: url(/wallpaperflare.com_wallpaper\(3\).jpg);
+  background-image: url(wallpaperflare.com_wallpaper\(3\).jpg);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -64,7 +64,7 @@ section {
   color: whitesmoke;
 }
 .section2{
-  background-image: url(/wallpaperflare.com_wallpaper\(4\).jpg);
+  background-image: url(wallpaperflare.com_wallpaper\(4\).jpg);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -78,7 +78,7 @@ section {
   color: whitesmoke;
 }
 .section3{
-  background-image: url(/wallpaperflare.com_wallpaper\(1\).jpg);
+  background-image: url(wallpaperflare.com_wallpaper\(1\).jpg);
   height: 100vh;
   display: flex;
   justify-content: center;
